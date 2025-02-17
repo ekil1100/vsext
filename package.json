@@ -2,7 +2,7 @@
     "name": "ekil-pack-base",
     "displayName": "Ekil's Pack: Base",
     "description": "Includes things like EditorConfig, Error Lens, etc.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "Ekil",
     "icon": "icon.png",
     "license": "MIT",
