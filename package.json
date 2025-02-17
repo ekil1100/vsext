@@ -1,0 +1,48 @@
+{
+    "name": "ekil-pack-base",
+    "displayName": "Ekil's Pack: Base",
+    "description": "Includes things like EditorConfig, Error Lens, etc.",
+    "version": "0.0.1",
+    "publisher": "Ekil",
+    "icon": "icon.png",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ekil1100/vsext"
+    },
+    "bugs": {
+        "url": "https://github.com/ekil1100/vsext/issues"
+    },
+    "author": {
+        "name": "Like",
+        "url": "https://github.com/ekil1100"
+    },
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "editorConfig.editorConfig",
+        "usernamehw.errorlens",
+        "christian-kohler.path-intellisense",
+        "naumovs.color-highlight",
+        "streetsidesoftware.code-spell-checker",
+        "eamodio.gitlens",
+        "mhutchie.git-graph",
+        "Gruntfuggly.todo-tree",
+        "alefragnani.Bookmarks",
+        "bierner.docs-view",
+        "stackbreak.comment-divider",
+        "aaron-bond.better-comments",
+        "redhat.vscode-yaml",
+        "redhat.vscode-xml",
+        "tamasfe.even-better-toml",
+        "SimonSiefke.svg-preview",
+        "EdwinKofler.vscode-assorted-languages",
+        "esbenp.prettier-vscode",
+        "tombonnike.vscode-status-bar-format-toggle",
+        "yoavbls.pretty-ts-errors"
+    ]
+}
