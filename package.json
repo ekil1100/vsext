@@ -2,7 +2,7 @@
     "name": "ekil-pack-base",
     "displayName": "Ekil's Pack: Base",
     "description": "Includes things like EditorConfig, Error Lens, etc.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "Ekil",
     "icon": "icon.png",
     "license": "MIT",
@@ -49,7 +49,7 @@
     ],
     "scripts": {
         "build": "vsce package",
-        "publish": "ovsx && vsce",
+        "publish": "ovsx publish && vsce publish",
         "ovsx": "ovsx publish",
         "vsce": "vsce publish"
     }
