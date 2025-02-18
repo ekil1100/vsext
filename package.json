@@ -2,7 +2,7 @@
     "name": "ekil-pack-base",
     "displayName": "Ekil's Pack: Base",
     "description": "Includes things like EditorConfig, Error Lens, etc.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "Ekil",
     "icon": "icon.png",
     "license": "MIT",
@@ -39,10 +39,18 @@
         "redhat.vscode-yaml",
         "redhat.vscode-xml",
         "tamasfe.even-better-toml",
-        "SimonSiefke.svg-preview",
+        "jock.svg",
         "EdwinKofler.vscode-assorted-languages",
         "esbenp.prettier-vscode",
         "tombonnike.vscode-status-bar-format-toggle",
-        "yoavbls.pretty-ts-errors"
-    ]
+        "yoavbls.pretty-ts-errors",
+        "fill-labs.dependi",
+        "britesnow.vscode-toggle-quotes"
+    ],
+    "scripts": {
+        "build": "vsce package",
+        "publish": "ovsx && vsce",
+        "ovsx": "ovsx publish",
+        "vsce": "vsce publish"
+    }
 }
