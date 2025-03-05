@@ -2,7 +2,7 @@
     "name": "ekil-pack-base",
     "displayName": "Ekil's Pack: Base",
     "description": "Includes things like EditorConfig, Error Lens, etc.",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "Ekil",
     "icon": "icon.png",
     "license": "MIT",
@@ -35,7 +35,7 @@
         "alefragnani.Bookmarks",
         "bierner.docs-view",
         "stackbreak.comment-divider",
-        "aaron-bond.better-comments",
+        "EdwinHuiSH.better-comments-next",
         "redhat.vscode-yaml",
         "redhat.vscode-xml",
         "tamasfe.even-better-toml",
@@ -46,7 +46,8 @@
         "yoavbls.pretty-ts-errors",
         "fill-labs.dependi",
         "britesnow.vscode-toggle-quotes",
-        "ezforo.copy-relative-path-and-line-numbers"
+        "ezforo.copy-relative-path-and-line-numbers",
+        "kisstkondoros.vscode-gutter-preview"
     ],
     "scripts": {
         "build": "vsce package",
